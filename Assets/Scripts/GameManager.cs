@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public int expectedNumber;
     public GameObject successPrefab;
     public GameObject failurePrefab;
+    public TextMeshProUGUI text;
 
     private void OnEnable()
     {
@@ -25,11 +27,13 @@ public class GameManager : MonoBehaviour
         if (expectedNumber == number)
         {
             Instantiate(successPrefab);
+            text.text = number.ToString();
             StartCoroutine(DelaySceneChange("Level Two"));
         }
         else
         {
             Instantiate(failurePrefab);
+            text.text = number.ToString();
             StartCoroutine(DelaySceneChange());
 
         }
