@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerOneMovement : MonoBehaviour
 {
     private float horizontal;
-    // private bool isFacingRight = true;
+    private bool isFacingRight = true;
     [SerializeField] private float speed = 8f;
     [SerializeField] private float jumpingPower = 12f;
 
@@ -31,7 +31,7 @@ public class PlayerOneMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
-        //Flip();
+        Flip();
     }
 
     private void FixedUpdate()
@@ -47,14 +47,14 @@ public class PlayerOneMovement : MonoBehaviour
         }
     }
 
-    //private void Flip()
-    //{
-    //    if (isFacingRight && horizontal < 0 || !isFacingRight && horizontal > 0)
-    //    {
-    //        isFacingRight = !isFacingRight;
-    //        Vector3 localScale = transform.localScale;
-    //        localScale.x *= -1f;
-    //        transform.localScale = localScale;
-    //    }
-    //}
+    private void Flip()
+    {
+        if (isFacingRight && horizontal < 0 || !isFacingRight && horizontal > 0)
+        {
+            isFacingRight = !isFacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
+        }
+    }
 }

@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public GameObject successPrefab;
     public GameObject failurePrefab;
     public TextMeshProUGUI text;
+    public string sceneID;
 
     private void OnEnable()
     {
@@ -28,7 +29,7 @@ public class GameManager : MonoBehaviour
         {
             Instantiate(successPrefab);
             text.text = number.ToString();
-            StartCoroutine(DelaySceneChange("Level Two"));
+            StartCoroutine(DelaySceneChange(sceneID));
         }
         else
         {

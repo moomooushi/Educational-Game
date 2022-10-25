@@ -22,5 +22,6 @@ public class HeldNumber : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Events.OnPickUpEvent?.Invoke(number);
+        Destroy(gameObject);
     }
 }
