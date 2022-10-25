@@ -5,13 +5,23 @@ using TMPro;
 
 public class NumberToUI : MonoBehaviour
 {
-    public TMP_Text text;
+    //public TMP_Text text;
+    //public int[] secondNumber;
 
-    private void OnTriggerEnter2D(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            // text.text = GameObject.Find()
-        }
-    }
+
+    //public void Start()
+    //{
+    //    GameObject number = GameObject.FindGameObjectWithTag("Number");
+    //    HeldNumber heldNumber = number.GetComponent<HeldNumber>();
+
+    //}
+
+    //public void OnTriggerEnter2D(Collider2D other)
+    //{
+
+    //    if (other.tag == "Number")
+    //    {
+    //        text.text = 
+    //    }
+    //}
 }
