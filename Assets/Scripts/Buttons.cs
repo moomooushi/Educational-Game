@@ -9,4 +9,9 @@ public class Buttons : MonoBehaviour
     {
         SceneManager.LoadScene("Level One");
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
 }

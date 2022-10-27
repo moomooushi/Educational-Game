@@ -244,6 +244,7 @@ Transform:
   - {fileID: 1976507409}
   - {fileID: 802551053}
   - {fileID: 1997191763}
+  - {fileID: 1917925833}
   - {fileID: 4133418975534800871}
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -284,7 +285,6 @@ Transform:
   - {fileID: 32917311}
   - {fileID: 1374178098}
   - {fileID: 266685351}
-  - {fileID: 1917925833}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 445841988}
   - component: {fileID: 445841987}
   - component: {fileID: 445841989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft2 DownShadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: 556062666}
   - component: {fileID: 556062665}
   - component: {fileID: 556062667}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,11 +734,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 640992e4a86d4944da4944ac1cb87314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  expectedNumber: 2
+  expectedNumber: 7
   successPrefab: {fileID: 5823331137222900076, guid: b163e3d23f67d9341bcaa424cda57d88, type: 3}
   failurePrefab: {fileID: 3672996449071514729, guid: d363dfdfad7b27d4cb11fe41b76d2cc1, type: 3}
-  text: {fileID: 0}
-  sceneID: Level Two
+  text: {fileID: 784259603}
+  sceneID: Level Five
 --- !u!4 &758618309
 Transform:
   m_ObjectHideFlags: 0
@@ -765,6 +765,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 460
       objectReference: {fileID: 0}
+    - target: {fileID: 9118293081605413694, guid: aabd7ac2d02734f4b96fe29ec5dfedd9, type: 3}
+      propertyPath: m_text
+      value: '7 + '
+      objectReference: {fileID: 0}
     - target: {fileID: 9118293081658200052, guid: aabd7ac2d02734f4b96fe29ec5dfedd9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 460
@@ -772,6 +776,14 @@ PrefabInstance:
     - target: {fileID: 9118293082091517192, guid: aabd7ac2d02734f4b96fe29ec5dfedd9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 460
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118293082091517193, guid: aabd7ac2d02734f4b96fe29ec5dfedd9, type: 3}
+      propertyPath: m_text
+      value: = 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118293082091517193, guid: aabd7ac2d02734f4b96fe29ec5dfedd9, type: 3}
+      propertyPath: m_fontSize
+      value: 36.9
       objectReference: {fileID: 0}
     - target: {fileID: 9118293082157342543, guid: aabd7ac2d02734f4b96fe29ec5dfedd9, type: 3}
       propertyPath: m_Name
@@ -863,6 +875,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aabd7ac2d02734f4b96fe29ec5dfedd9, type: 3}
+--- !u!114 &784259603 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9118293081658200053, guid: aabd7ac2d02734f4b96fe29ec5dfedd9, type: 3}
+  m_PrefabInstance: {fileID: 784259602}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &802551051
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,7 +897,7 @@ GameObject:
   - component: {fileID: 802551053}
   - component: {fileID: 802551052}
   - component: {fileID: 802551054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft2 DownShadow (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -983,7 +1006,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5287690446823361712, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5287690446823361712, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
       propertyPath: m_LocalScale.x
@@ -999,11 +1022,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5287690446823361712, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.5660868
+      value: 4.44
       objectReference: {fileID: 0}
     - target: {fileID: 5287690446823361712, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.4235494
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 5287690446823361712, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1040,6 +1063,10 @@ PrefabInstance:
     - target: {fileID: 5287690446823361714, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
       propertyPath: m_Name
       value: NumberPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5287690446823361717, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
+      propertyPath: number
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
@@ -1590,7 +1617,7 @@ GameObject:
   - component: {fileID: 1409536450}
   - component: {fileID: 1409536449}
   - component: {fileID: 1409536451}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1785,7 +1812,7 @@ GameObject:
   - component: {fileID: 1495368081}
   - component: {fileID: 1495368080}
   - component: {fileID: 1495368082}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1896,7 +1923,7 @@ GameObject:
   - component: {fileID: 1507613204}
   - component: {fileID: 1507613203}
   - component: {fileID: 1507613205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft2 DownShadow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2021,7 +2048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5287690446823361712, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.0086741
+      value: -3.55
       objectReference: {fileID: 0}
     - target: {fileID: 5287690446823361712, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2062,6 +2089,10 @@ PrefabInstance:
     - target: {fileID: 5287690446823361714, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
       propertyPath: m_Name
       value: NumberPrefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5287690446823361717, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
+      propertyPath: number
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d3c9916a8597254f97d27c45e6637d2, type: 3}
@@ -2160,7 +2191,7 @@ GameObject:
   - component: {fileID: 1917925833}
   - component: {fileID: 1917925835}
   - component: {fileID: 1917925834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft2 DownShadow (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2175,12 +2206,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917925832}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.87, y: -3.4883714, z: 9.693451}
+  m_LocalPosition: {x: 4.86, y: -2.7039106, z: 9.805777}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 106802116}
-  m_RootOrder: 8
+  m_Father: {fileID: 36635353}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1917925834
 BoxCollider2D:
@@ -2439,7 +2470,7 @@ GameObject:
   - component: {fileID: 1976507409}
   - component: {fileID: 1976507408}
   - component: {fileID: 1976507410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2634,7 +2665,7 @@ GameObject:
   - component: {fileID: 1997191763}
   - component: {fileID: 1997191762}
   - component: {fileID: 1997191764}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2745,6 +2776,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 4133418975570724434, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133418975570724434, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133418976060938303, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133418976060938303, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.54
+      objectReference: {fileID: 0}
     - target: {fileID: 8124593592894469812, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2802,7 +2849,7 @@ GameObject:
   - component: {fileID: 2066136855}
   - component: {fileID: 2066136854}
   - component: {fileID: 2066136856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2986,6 +3033,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4133418975539247677, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133418975539247677, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133418975570724434, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133418975570724434, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.38
+      objectReference: {fileID: 0}
     - target: {fileID: 4133418975570724437, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -2994,9 +3057,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4133418976060938303, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.874
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133418976060938303, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.328
+      objectReference: {fileID: 0}
     - target: {fileID: 8124593592894469812, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8124593592894469812, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3004,7 +3075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8124593592894469812, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.39450428
+      value: 3.53
       objectReference: {fileID: 0}
     - target: {fileID: 8124593592894469812, guid: 5d6c5af7f01f86249b0798fb2b13b40e, type: 3}
       propertyPath: m_LocalPosition.z
