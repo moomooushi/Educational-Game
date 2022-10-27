@@ -186,8 +186,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d8adbe7ea46f440ae9da59125825c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
-  jumpingPower: 12
+  speed: 5
+  jumpingPower: 6
   rb: {fileID: 3306548181385145589}
   groundCheck: {fileID: 9077150301053033628}
   groundLayer:
@@ -210,7 +210,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 06443362d0692ec4cae5cb9028fd66b2, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -904,7 +904,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8324683437822026392}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.83, y: 3.25, z: -8.531549}
+  m_LocalPosition: {x: -3.83, y: 3.315, z: -8.531549}
   m_LocalScale: {x: 1.88025, y: 1.88025, z: 1.88025}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8124593592894469812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 4133418975539247677}
   - component: {fileID: 4133418975539247675}
   - component: {fileID: 4133418975539247674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft2 DownShadow (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 4133418975570724434}
   - component: {fileID: 4133418975570724432}
   - component: {fileID: 4133418975570724435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 4133418976060938303}
   - component: {fileID: 4133418976060938301}
   - component: {fileID: 4133418976060938300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GrassJoinHillLeft2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

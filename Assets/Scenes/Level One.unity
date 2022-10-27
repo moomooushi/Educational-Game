@@ -256,6 +256,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 965846617}
     - target: {fileID: 1578428165732043005, guid: 4feec8d373a819a4d88f087e3fd6de20, type: 3}
+      propertyPath: jumpingPower
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578428165732043005, guid: 4feec8d373a819a4d88f087e3fd6de20, type: 3}
       propertyPath: groundLayer.m_Bits
       value: 64
       objectReference: {fileID: 0}

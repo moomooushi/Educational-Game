@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5287690446823361712}
   - component: {fileID: 5287690446823361713}
   - component: {fileID: 5287690446823361718}
-  - component: {fileID: 5287690446823361719}
   - component: {fileID: 5287690446823361717}
+  - component: {fileID: -7728784994157997094}
   m_Layer: 0
   m_Name: NumberPrefab
   m_TagString: Untagged
@@ -113,18 +113,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
---- !u!114 &5287690446823361719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5287690446823361714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fcabd29385f0ed4992118535bb4d79c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5287690446823361717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,3 +128,17 @@ MonoBehaviour:
   number: 2
   sprites: {fileID: 11400000, guid: 04fb948cecc06254fb055d4f213bfd36, type: 2}
   sr: {fileID: 0}
+--- !u!114 &-7728784994157997094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5287690446823361714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f53e397798e9111458d1d4c8e8b9a11c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: 0.15
+  frequency: 0.5
